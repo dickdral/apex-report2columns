@@ -10,12 +10,11 @@ The plugin settings are customizable and you can change:
 - **Direction** - Direction in which the elements are ordered:
 
 **Vertical** ( default )
-
-1    4
-
-2    5
-
-3    6
+| col 1 | col 2 |
+|:-----:|:-----:|
+| 1 | 4 |
+| 2 | 5 |
+| 3 | 6 |
 
 **Horizontal**
 
