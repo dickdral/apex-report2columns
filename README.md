@@ -22,5 +22,5 @@ Horizontal
 http://www.speech2form.com/ords/f?p=OPFG:REP2COL
 
 ## Preview
-![](https://github.com/dickdral/apex-report2columns/report2columns example.png)
+![](https://github.com/dickdral/apex-report2columns/blob/master/report2columns_example.png?raw=true)
 ---
