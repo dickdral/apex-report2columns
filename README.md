@@ -3,6 +3,8 @@ Oracle Apex plugin for distributing a report over more than one column.
 
 ## Install
 - Import plugin file "dynamic_action_plugin_nl_detora_apex_report2columns.sql" from source directory into your application
+- Add an After Refresh Dynamic Action to the region to be affected
+- In the True Action refer to the report2columns [Plug-In] and adjust the Settings if desired
 
 ## Plugin Settings
 The plugin settings are customizable and you can change:
