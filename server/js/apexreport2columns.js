@@ -41,9 +41,10 @@ var apexreport2columns = {
 	  direction    = ( direction ) ? direction : 'vertical';
 	
 	  // calculate the number of rows per column
-	  var table = $(tabSelector).addClass('reportColumn'); 
-	  var rowsPerCol = Math.ceil( ( $(table).find(' tr').length-1 )/numCols);  
-	  var baseName = 'reportColumn';   
+	  var table      = $(tabSelector).addClass('reportColumn'); 
+	  var rowsPerCol = Math.ceil( ( $(table).find(' tr').length-1 )/numCols);
+	  var randomNum  = Math.floor((Math.random() * 10000000) + 1);
+	  var baseName   = 'reportColumn_'+randomNum;   
   
 	  // create table template for columns 
 	  var template = $(table).clone();
