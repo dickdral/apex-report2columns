@@ -27,7 +27,7 @@
       "plugin" : {
         "internalName" : "NL.DETORA.APEX.REPORT2COLUMNS",
         "type" : "dynamic action",
-        "demo" : "https://www.speech2form/ords/f?p=ORDS:REP2COL",
+        "demo" : "http://www.speech2form.com/ords/f?p=OPFG:REP2COL",
         "previewImage" : "https://raw.githubusercontent.com/dickdral/apex-report2columns/master/report2columns_example.png"
       }
     }
