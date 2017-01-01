@@ -1,6 +1,6 @@
 {
   "name" : "report2columns",
-  "version" : "v1.1",
+  "version" : "v1.2",
   "description" : "report2columns enbales you to distribute you Apex report over more multiple columns",
   "keywords" : ["report","columns","multiple","dynamic action"],
   "homepage" : "https://github.com/dickdral/apexreport2columns",
@@ -21,7 +21,7 @@
     "url" : "https://github.com/dickdral/apex-report2columns.git"
   },
   "oracle" : {
-    "versions" : ["12.1.0.2", "11.2.0.4"],
+    "versions" : ["11.2.0.1", "12.1.0.1"],
     "apex" : {
       "versions" : ["5.0.0","5.1.0"],
       "plugin" : {
