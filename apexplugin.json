@@ -5,7 +5,7 @@
   "keywords" : ["report","columns","multiple","dynamic action"],
   "homepage" : "https://github.com/dickdral/apexreport2columns",
   "bugs" : {
-    "url" : "https://github.com/dickdral/apexreport2columns/issues",
+    "url" : "https://github.com/dickdral/apex-report2columns/issues",
     "email" : "dick.dral@detora.nl"
   },
   "license" : "MIT",
@@ -18,17 +18,17 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dickdral/apexreport2columns.git"
+    "url" : "https://github.com/dickdral/apex-report2columns.git"
   },
   "oracle" : {
-    "versions" : ["all"],
+    "versions" : ["12.1.0.2", "11.2.0.4"],
     "apex" : {
       "versions" : ["5.0.0","5.1.0"],
       "plugin" : {
         "internalName" : "NL.DETORA.APEX.REPORT2COLUMNS",
         "type" : "dynamic action",
         "demo" : "https://www.speech2form/ords/f?p=ORDS:REP2COL",
-        "previewImage" : "https://raw.githubusercontent.com/dickdral/apexreport2columns/master/report2columns_example.png"
+        "previewImage" : "https://raw.githubusercontent.com/dickdral/apex-report2columns/master/report2columns_example.png"
       }
     }
   }
