@@ -3,7 +3,7 @@
   "version" : "v1.0",
   "description" : "report2columns enbales you to distribute you Apex report over more multiple columns",
   "keywords" : ["report","columns","multiple","dynamic action"],
-  "homepage" : "https://github.com/dickdral/apexreport2columns",
+  "homepage" : "https://github.com/dickdral/apex-report2columns",
   "bugs" : {
     "url" : "https://github.com/dickdral/apex-report2columns/issues",
     "email" : "dick.dral@detora.nl"
