@@ -35,6 +35,7 @@ wwv_flow_api.create_plugin(
 ,p_category=>'INIT'
 ,p_supported_ui_types=>'DESKTOP'
 ,p_javascript_file_urls=>'#PLUGIN_FILES#apexreport2columns.js'
+,p_css_file_urls=>'#PLUGIN_FILES#apexreport2columns.css'
 ,p_plsql_code=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
 '/*-------------------------------------',
 ' * APEX Report to Columns',
@@ -70,7 +71,7 @@ wwv_flow_api.create_plugin(
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
-,p_files_version=>3
+,p_files_version=>4
 );
 wwv_flow_api.create_plugin_attribute(
  p_id=>wwv_flow_api.id(30152545644390759)
@@ -172,6 +173,24 @@ wwv_flow_api.create_plugin_file(
 ,p_plugin_id=>wwv_flow_api.id(30152301742386604)
 ,p_file_name=>'apexreport2columns.js'
 ,p_mime_type=>'application/javascript'
+,p_file_charset=>'utf-8'
+,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
+);
+end;
+/
+begin
+wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
+wwv_flow_api.g_varchar2_table(1) := '2E7265706F7274436F6C756D6E207B20200A20202020646973706C61793A20626C6F636B3B20200A20202020666C6F61743A206C6566743B20200A202020206D617267696E2D72696768743A20333070783B20200A20202020706F736974696F6E3A2072';
+wwv_flow_api.g_varchar2_table(2) := '656C61746976653B20200A7D2020';
+null;
+end;
+/
+begin
+wwv_flow_api.create_plugin_file(
+ p_id=>wwv_flow_api.id(30349596979082009)
+,p_plugin_id=>wwv_flow_api.id(30152301742386604)
+,p_file_name=>'apexreport2columns.css'
+,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'
 ,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
 );
