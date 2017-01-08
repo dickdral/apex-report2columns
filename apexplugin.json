@@ -1,11 +1,11 @@
 {
-  "name" : "report2columns",
+  "name" : "Resize Dialog",
   "version" : "v1.0",
-  "description" : "report2columns enbales you to distribute you Apex report over more multiple columns",
-  "keywords" : ["report","columns","multiple","dynamic action"],
-  "homepage" : "https://github.com/dickdral/apexreport2columns",
+  "description" : "Resize Dialog resizes an Apex modal dialog to fit its contents",
+  "keywords" : ["dialog","resize","dynamic action"],
+  "homepage" : "https://github.com/dickdral/apexresizedialog",
   "bugs" : {
-    "url" : "https://github.com/dickdral/apex-report2columns/issues",
+    "url" : "https://github.com/dickdral/apexresizedialog/issues",
     "email" : "dick.dral@detora.nl"
   },
   "license" : "MIT",
@@ -18,17 +18,17 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dickdral/apex-report2columns.git"
+    "url" : "https://github.com/dickdral/apexresizedialog.git"
   },
   "oracle" : {
     "versions" : ["11.2.0.1", "12.1.0.1"],
     "apex" : {
       "versions" : ["5.0.0","5.1.0"],
       "plugin" : {
-        "internalName" : "NL.DETORA.APEX.REPORT2COLUMNS",
+        "internalName" : "NL.DETORA.APEX.RESIZE_DIALOG,
         "type" : "dynamic action",
-        "demo" : "http://www.speech2form.com/ords/f?p=OPFG:REP2COL",
-        "previewImage" : "https://raw.githubusercontent.com/dickdral/apex-report2columns/master/report2columns_example.png"
+        "demo" : "http://www.speech2form.com/ords/f?p=OPFG:RESIZE_DIALOG",
+        "previewImage" : "https://raw.githubusercontent.com/dickdral/apexresizedialog/master/report2columns_example.png"
       }
     }
   }
