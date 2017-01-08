@@ -3,6 +3,9 @@ Oracle Apex plugin for distributing a Classic report over more than one column.
 
 The number of columns and the sort order of the elements can be specified. 
 
+## Change history
+- V1.1 CSS file added
+
 ## Requirements
 The plugin can be used with Apex 5.0 and Apex 5.1 in applications using Universal Theme. The plugin is written for Classic Reports with the Standard Theme.
 
